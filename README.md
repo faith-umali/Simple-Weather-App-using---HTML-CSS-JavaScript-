@@ -4,7 +4,7 @@ A clean and responsive weather application built using **HTML**, **CSS**, and **
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view the live site](https://faith-umali.github.io/Simple-Weather-App-using---HTML-CSS-JavaScript-/)
+👉 [Click here to view the live site](https://faith-umali.github.io/Simple-Weather-App-using-HTML-CSS-JavaScript-/)
 
 ---
 
