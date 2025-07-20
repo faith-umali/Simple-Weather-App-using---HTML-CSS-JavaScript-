@@ -1,35 +1,65 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e0f7fa;
   text-align: center;
-  padding: 50px;
+  transition: background 0.5s ease;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
   max-width: 400px;
-  margin: 0 auto;
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-input {
+input, button {
   padding: 10px;
-  width: 80%;
-  margin-bottom: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #00796b;
+  background-color: #ff99cc;
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  font-weight: bold;
 }
 
-#weatherResult {
-  margin-top: 20px;
-  font-size: 18px;
+button:hover {
+  background-color: #ff66b2;
+}
+
+footer {
+  margin-top: 40px;
+  color: #555;
+}
+
+/* Weather-based backgrounds */
+.clear {
+  background: linear-gradient(to top, #f9d423, #ff4e50);
+}
+
+.clouds {
+  background: linear-gradient(to top, #d7d2cc, #304352);
+}
+
+.rain, .drizzle {
+  background: linear-gradient(to top, #4e54c8, #8f94fb);
+}
+
+.thunderstorm {
+  background: linear-gradient(to top, #141e30, #243b55);
+}
+
+.snow {
+  background: linear-gradient(to top, #e6dada, #274046);
+}
+
+.mist {
+  background: linear-gradient(to top, #d3cce3, #e9e4f0);
 }
