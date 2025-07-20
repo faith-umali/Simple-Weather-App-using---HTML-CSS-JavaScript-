@@ -9,7 +9,7 @@ A clean and responsive weather application built using **HTML**, **CSS**, and **
 ---
 
 ## ✨ Features
-- Search weather by **city name**
+- Search weather by **city/country name**
 - Shows:
   - 🌡️ Temperature (°C)
   - 🌦️ Current weather condition
@@ -34,7 +34,7 @@ A clean and responsive weather application built using **HTML**, **CSS**, and **
 2. Replace the API key in script.js with your own key from OpenWeatherMap
 const apiKey = "your_api_key_here";
 3. Open index.html in your browser
-4. Type a city and click "Get Weather"
+4. Type a city/country and click "Get Weather"
 
 ---
 
