@@ -1,42 +1,73 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   transition: background 0.5s ease;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f3f4f6;
 }
 
 .container {
   padding: 40px;
-  background-color: rgba(255, 255, 255, 0.9);
-  max-width: 400px;
-  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 420px;
+  margin: 40px auto;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ff66b2;
+  margin-bottom: 20px;
 }
 
 input, button {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px 5px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  width: 80%;
+  font-size: 1rem;
 }
 
 button {
-  background-color: #ff99cc;
+  background-color: #ff66b2;
   color: white;
   border: none;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
+  width: auto;
+  padding: 10px 20px;
 }
 
 button:hover {
-  background-color: #ff66b2;
+  background-color: #ff3385;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#weatherResult.show {
+  opacity: 1;
 }
 
 footer {
-  margin-top: 40px;
-  color: #555;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
 }
 
 /* Weather-based backgrounds */
@@ -45,7 +76,7 @@ footer {
 }
 
 .clouds {
-  background: linear-gradient(to top, #d7d2cc, #304352);
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
 }
 
 .rain, .drizzle {
