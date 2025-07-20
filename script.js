@@ -17,10 +17,13 @@ function getWeather() {
     })
     .then((data) => {
       const resultDiv = document.getElementById("weatherResult");
+      const weatherMain = data.weather[0].main;
+      const weatherDesc = data.weather[0].description;
+
       resultDiv.innerHTML = `
         <h2>${data.name}, ${data.sys.country}</h2>
         <p>Temperature: ${data.main.temp}°C</p>
-        <p>Weather: ${data.weather[0].main}</p>
+        <p>Weather: ${weatherMain} - ${weatherDesc}</p>
       `;
     })
     .catch((error) => {
