@@ -30,7 +30,7 @@ A clean and responsive weather application built using **HTML**, **CSS**, and **
 ## 📦 Setup / How to Use
 1. Clone the repository  
    ```bash
-   git clone https://github.com/faith-umali/Simple-Weather-App-using---HTML-CSS-JavaScript-.git
+   git clone https://github.com/faith-umali/Simple-Weather-App-using-HTML-CSS-JavaScript-.git
 2. Replace the API key in script.js with your own key from OpenWeatherMap
 const apiKey = "your_api_key_here";
 3. Open index.html in your browser
