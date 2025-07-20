@@ -45,7 +45,6 @@ This project is open source and available under the MIT License.
 ---
 
 💖 Acknowledgements
-
 OpenWeatherMap
 
 GitHub Pages for live hosting
