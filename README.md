@@ -1,5 +1,5 @@
 # 🌤️ SkyCast Weather App
-A clean and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. This project lets users search for any city and get real-time weather data.
+A clean and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. This project lets users search for any city/country and get real-time weather data.
 
 ---
 
