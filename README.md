@@ -19,7 +19,7 @@ A weather app built using **HTML**, **CSS**, and **JavaScript**, powered by the 
 
 ---
 
-## Technologies Used
+##  Technologies Used
 - HTML5  
 - CSS3  
 - JavaScript (ES6)  
@@ -45,9 +45,7 @@ This project is open source and available under the MIT License.
 ---
 
 ## Acknowledgements
-
 OpenWeatherMap
-
 GitHub Pages for live hosting
 
 ---
