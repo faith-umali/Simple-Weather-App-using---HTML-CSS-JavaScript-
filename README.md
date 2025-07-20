@@ -3,12 +3,12 @@ A weather app built using **HTML**, **CSS**, and **JavaScript**, powered by the 
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 👉 [Click here to view the live site](https://faith-umali.github.io/SkyCast-Weather-App-using-HTML-CSS-JavaScript-/)
 
 ---
 
-## ✨ Features
+##  Features
 - Search weather by **city/country name**
 - Shows:
   - 🌡️ Temperature (°C)
@@ -19,7 +19,7 @@ A weather app built using **HTML**, **CSS**, and **JavaScript**, powered by the 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - HTML5  
 - CSS3  
 - JavaScript (ES6)  
@@ -27,7 +27,7 @@ A weather app built using **HTML**, **CSS**, and **JavaScript**, powered by the 
 
 ---
 
-## 📦 Setup / How to Use
+##  Setup / How to Use
 1. Clone the repository  
    ```bash
    git clone https://github.com/faith-umali/SkyCast-Weather-App-using-HTML-CSS-JavaScript-.git
@@ -38,13 +38,13 @@ const apiKey = "your_api_key_here";
 
 ---
 
-📄 License
+ License
 
 This project is open source and available under the MIT License.
 
 ---
 
-💖 Acknowledgements
+ Acknowledgements
 
 OpenWeatherMap
 
@@ -52,7 +52,7 @@ GitHub Pages for live hosting
 
 ---
 
-✨ By
+ By
 Faith Princess R. Umali
 
 ---
