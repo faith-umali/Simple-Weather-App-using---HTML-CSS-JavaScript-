@@ -1,8 +1,6 @@
 # 🌤️ Simple Weather App
 A clean and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. This project lets users search for any city and get real-time weather data.
 
-![screenshot](https://user-images.githubusercontent.com/your-image-preview-if-you-want.png) <!-- optional -->
-
 ---
 
 ## 🔗 Live Demo
