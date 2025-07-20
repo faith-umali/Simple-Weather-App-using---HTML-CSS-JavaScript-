@@ -39,11 +39,13 @@ const apiKey = "your_api_key_here";
 ---
 
 📄 License
+
 This project is open source and available under the MIT License.
 
 ---
 
 💖 Acknowledgements
+
 OpenWeatherMap
 
 GitHub Pages for live hosting
