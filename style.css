@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #66e0ff;
+  background-color: #ba66ff;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 2rem;
-  color: #f6f3f3;
+  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -37,7 +37,7 @@ input, button {
 }
 
 button {
-  background-color: #66e0ff;
+  background-color:#333333;
   color:white ;
   border: none;
   cursor: pointer;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #66e0ff;
+  background-color: #f6f3f4;
 }
 
 #weatherResult {
