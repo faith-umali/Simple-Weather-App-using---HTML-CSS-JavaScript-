@@ -1,10 +1,10 @@
-# 🌤️ Simple Weather App
+# 🌤️ SkyCast Weather App
 A clean and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. This project lets users search for any city and get real-time weather data.
 
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view the live site](https://faith-umali.github.io/Simple-Weather-App-using-HTML-CSS-JavaScript-/)
+👉 [Click here to view the live site](https://faith-umali.github.io/SkyCast-Weather-App-using-HTML-CSS-JavaScript-/)
 
 ---
 
