@@ -20,10 +20,21 @@ function getWeather() {
       const weatherMain = data.weather[0].main;
       const weatherDesc = data.weather[0].description;
 
+      // Smart interpretation logic
+      let interpretedWeather = weatherMain;
+      if (weatherDesc.includes("rain") || weatherDesc.includes("shower")) {
+        interpretedWeather = "Rainy";
+      } else if (weatherDesc.includes("clear")) {
+        interpretedWeather = "Clear";
+      } else if (weatherDesc.includes("cloud")) {
+        interpretedWeather = "Cloudy";
+      }
+
       resultDiv.innerHTML = `
         <h2>${data.name}, ${data.sys.country}</h2>
         <p>Temperature: ${data.main.temp}°C</p>
-        <p>Weather: ${weatherMain} - ${weatherDesc}</p>
+        <p>Weather: ${interpretedWeather} (${weatherDesc})</p>
+        <p>Last updated: ${new Date().toLocaleTimeString()}</p>
       `;
     })
     .catch((error) => {
